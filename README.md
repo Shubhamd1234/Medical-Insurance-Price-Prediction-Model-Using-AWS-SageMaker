@@ -17,7 +17,7 @@ The dataset used for training and testing was sourced from **Kaggle** and upload
 6. **Model Training**: Used SageMaker’s Linear Learner algorithm with hyperparameter tuning (epochs, batch size).
 7. **Model Deployment**: Deployed the trained model to a SageMaker endpoint for real-time predictions.
 8. **Model Testing**: Evaluated the model using test data and handled serialization/deserialization for predictions.
-9. **Model Evaluation**: Assessed the model’s performance with relevant metrics.
+9. **Model Evaluation**: Assessed the model’s performance with relevant metrics, deleted the SageMaker endpoints to prevent incurring extra costs.
 
 ## **Tools and Technologies Used**
 
