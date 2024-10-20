@@ -9,15 +9,15 @@ The primary objective of this project is to predict **medical insurance prices**
 The dataset used for training and testing was sourced from **Kaggle** and uploaded to **Amazon S3** for easy integration with SageMaker.
 
 ## **Work Flow**
-
-1. **Data Preprocessing**: Cleaned the dataset by handling missing values, Duplicate values, Invalid values and more.
-2. **Exploratory Data Analysis (EDA)**: Performed data exploration, feature analysis, and visualized important patterns in the data and correlaiton matrix.
-3. **Environment Setup**: Set up the AWS SageMaker environment and configured IAM roles and S3 buckets for data storage.
-4. **Data Preparation**: Uploaded the dataset to S3, split into training and test sets.
-5. **Model Training**: Used SageMaker’s Linear Learner algorithm with hyperparameter tuning (epochs, batch size).
-6. **Model Deployment**: Deployed the trained model to a SageMaker endpoint for real-time predictions.
-7. **Model Testing**: Evaluated the model using test data and handled serialization/deserialization for predictions.
-8. **Model Evaluation**: Assessed the model’s performance with relevant metrics.
+1. **Basic Information of Data**: Checked the shape of the dataset, described the columns, verified data types, and performed initial data inspections.
+2. **Data Preprocessing**: Cleaned the dataset by handling missing values, Duplicate values, Invalid values and more.
+3. **Exploratory Data Analysis (EDA)**: Performed data exploration, feature analysis, and visualized important patterns in the data and correlaiton matrix.
+4. **Environment Setup**: Set up the AWS SageMaker environment and configured IAM roles and S3 buckets for data storage.
+5. **Data Preparation**: Uploaded the dataset to S3, split into training and test sets.
+6. **Model Training**: Used SageMaker’s Linear Learner algorithm with hyperparameter tuning (epochs, batch size).
+7. **Model Deployment**: Deployed the trained model to a SageMaker endpoint for real-time predictions.
+8. **Model Testing**: Evaluated the model using test data and handled serialization/deserialization for predictions.
+9. **Model Evaluation**: Assessed the model’s performance with relevant metrics.
 
 ## **Tools and Technologies Used**
 
